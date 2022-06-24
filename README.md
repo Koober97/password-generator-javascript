@@ -11,7 +11,7 @@
 ## Screenshot of Code
 ![Part of final code](assets/screenshot/code-screenshot.png)
 
-## Url Link
+## Deployed Link
 * 
 
 ### Created by Brian Koo
