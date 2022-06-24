@@ -12,6 +12,6 @@
 ![Part of final code](assets/screenshot/code-screenshot.png)
 
 ## Deployed Link
-* 
+* https://koober97.github.io/password-generator-javascript/
 
 ### Created by Brian Koo
