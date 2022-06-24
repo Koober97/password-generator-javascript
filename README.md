@@ -9,4 +9,4 @@
 * From my testings, it seems that it works without breaking
 
 ## Screenshot of Code
-![Screenshot part of final code](assets/screenshot/code-screenshot)
+![Part of final code](assets/screenshot/code-screenshot.png)
