@@ -19,6 +19,7 @@ function generatePassword() {
   }
   return password;
 }
+console.log(generatePassword);
 
 // Prompts/Criteria that are asked in order to generate the password
 function getPrompts() {
@@ -44,19 +45,21 @@ function getPrompts() {
   }
   return true;
 }
+console.log(getPrompts);
 
 // Write password to the #password input
 function writePassword() {
   var correctPrompts = getPrompts();
 
   if (correctPrompts) {
-    var newPassword = generatePassword();
+    var newPassword = generatePassword(); // Had to change up var newPassword because of redundant usage with var password
     var passwordText = document.querySelector("#password");
     passwordText.value = newPassword;
   } else {
-    passwordText.value = "";
+    passwordText.value = ""; // Added empty "" value for when a prompt is not returned as true
   }
 }
+console.log(writePassword);
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
